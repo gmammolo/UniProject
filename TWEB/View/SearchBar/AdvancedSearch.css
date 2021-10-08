@@ -1,0 +1,149 @@
+/* 
+    Created on : 2-mag-2015, 18.09.52
+    Author     : Giuseppe
+*/
+
+#search_gump input[name="bar_search"]
+{
+    width: 300px;
+}
+
+#search_gump input[type="button"]
+{
+   margin-left: 20px;
+}
+
+.field_check
+{
+    display: inline-block;
+    width: 150px;
+    height: 250px;
+}
+
+.field_filter
+{
+    display: inline-block;
+    min-width: 150px;
+    min-height: 250px;
+    vertical-align: top;
+    
+}
+
+.filter-block
+{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#accountList
+{
+    margin-top: 30px;
+    position: relative;
+}
+
+#accountList .avatar
+{
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100px;
+    max-height: 100px;
+    
+}   
+
+#accountList .accountElement
+{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-height: 140px;
+}
+
+#accountList .redirectElement
+{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-width: 600px;
+    margin-left: 0px;
+    min-height: 113px;
+}
+
+#accountList .option-menu-list
+{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    border: 1px solid black;
+    margin-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#accountList .generalita
+{
+    vertical-align: top;
+    position: absolute;
+    top: 0px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+}
+
+#accountList .name
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 28px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#accountList .username
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.generalita div, .generalita span
+{
+    display: inline-block;
+    
+}
+
+.generalita .row
+{
+    display: block;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    min-width: 600px;
+}
+
+ .generalita .profile-email, .generalita .user-email
+{
+    position: absolute;
+    top: 0px;
+    left: 22em;
+    font-size: 16px;
+    font-weight:bold; 
+}
+
+.generalita span
+{
+    position: absolute;
+    top: 0px;
+    left: 16em;
+    font-size: 16px;
+}

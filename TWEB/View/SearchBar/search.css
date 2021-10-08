@@ -1,0 +1,62 @@
+
+/* 
+    Created on : 30-apr-2015, 11.21.12
+    Author     : Giuseppe
+*/
+
+
+#search-result {
+    position: absolute;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #8EBEBC;
+    z-index: 30;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1em;
+    top: 50px;
+    margin-left: 10px;
+}
+
+#search-result .title 
+{
+    text-align: right;
+    font-weight: bold;
+}
+
+#search-result .cliccabile
+{
+    cursor: pointer;
+}
+
+
+#search-result  img
+{
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: top;
+}
+
+#search-result .nome 
+{
+    font-weight: bold;
+}
+
+#search-result .multi_row
+{
+    display: inline-block;
+    position: relative;
+}
+
+#search-result .post-row .name
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#search-result .post-row .text
+{
+    font-style: italic;
+    font-size: 13px;
+}

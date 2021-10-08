@@ -1,0 +1,9 @@
+digraph Es1Comma3_Dot{
+rankdir=LR;
+node [shape = doublecircle];
+q4;
+node [shape = circle];
+q0 -> q0 [ label = "a-z, A-Z, 0, 2, 4, 6, 8, 1, 3, 5, 7, 9" ];
+q0 -> q4 [ label = "L-Z, A-K" ];
+q4 -> q4 [ label = "a-z, A-Z" ];
+}

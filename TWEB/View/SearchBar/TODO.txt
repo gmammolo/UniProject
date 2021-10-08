@@ -1,0 +1,16 @@
+RICERCA AVANZATA 
+
+Ricerca avanzata dei contenuti: si possono fornire
+alcuni parametri per ricerche specifiche; ad
+esempio, si vogliono vedere i contenuti inseriti
+dagli utenti con maggior numero di “like”,
+oppure i messaggi contenenti una data parola o
+hashtag. Una volta restituita la lista dei contenuti
+corrispondenti alla ricerca, devono essere
+presenti anche i link agli utenti che li hanno
+prodotti.
+
+
+Il sistema dovrà fornire la possibilità di ordinare i
+risultati provenienti da una ricerca secondo criteri
+scelti dall’utente.

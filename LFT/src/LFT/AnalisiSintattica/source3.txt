@@ -1,0 +1,5 @@
+a:= 3;
+b := a+2;
+if(b>a)
+    print(b);
+print(b)

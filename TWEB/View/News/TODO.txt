@@ -1,0 +1,6 @@
+SISTEMA NOTIFY
+
+La sezione notizie diventa "viva" e si aggiorna al
+cambiamento di stato degli amici. I contenuti
+degli amici devono apparire in questa pagina in
+ordine cronologico.

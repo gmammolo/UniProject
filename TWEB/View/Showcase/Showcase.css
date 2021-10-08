@@ -1,0 +1,234 @@
+/* 
+    Created on : 1-mag-2015, 9.15.08
+    Author     : Giuseppe
+*/
+
+
+#Showcase-div 
+{
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+#Showcase-div .post
+{
+    border: 1px solid #222729;
+    position: relative;
+    padding-bottom: 0px;
+    line-height: 1.2em !important ;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#Showcase-div .comment
+{
+    border: 1px solid #222729;
+    position: relative;
+    padding-bottom: 0px;
+    line-height: 1.2em !important ;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-left: 40px;
+}
+
+#Showcase-div .comment p, #Showcase-div .comment span
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#Showcase-div  .Author
+{
+    position: relative;
+    font-style: oblique;
+    font-size: 16px;
+
+    
+}
+
+#Showcase-div  .Author .AuthorName
+{
+    font-size: 18px;
+    font-weight:bold;
+}
+
+#Showcase-div  .Author .Avatar
+{
+    position: relative;
+    top: 15px;
+}
+
+
+#Showcase-div  .Avatar 
+{
+    margin: 5px;
+    max-width: 30px;
+    max-height: 30px;
+
+    
+}
+
+#Showcase-div  .Image
+{
+    margin-left: 5px;
+    max-width: 100px;
+    max-height: 100px;
+    cursor: pointer;
+}
+
+#Showcase-div  .Testo
+{
+    margin: 10px;
+    vertical-align: top;
+}
+
+#Showcase-div .post .row
+{
+    position: relative;
+    font-size: 13px;
+    min-height: 20px;
+}
+
+#Showcase-div  .delete
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    background-color: #222729;
+    color: red;
+    line-height: 1em;
+    cursor: pointer;
+}
+
+#Showcase-div  .luogo
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 250px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#Showcase-div  .data
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-style: oblique;
+}
+
+#Showcase-div  .privacy
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+#Showcase-div  .privacy img
+{
+    width: 20px;
+    height: 20px;
+}
+
+#Showcase-other
+{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    cursor: pointer;
+    background: #222729;
+    color: #FFF;
+    text-align: center;
+}
+
+#Showcase-div input[name="Invia"] {
+ position: relative;
+ left: 10px;
+ top: -10px;
+ height: 50px;
+ padding: 5px;
+    
+}
+
+#Showcase-div form 
+{
+    margin-left: 40px;
+    padding-left: 0px;
+}
+
+
+
+#Showcase-div textarea[name="commentText"] {
+    position: relative;
+    max-width: 700px;
+    width: 80%;
+    left: 0px;
+    height: 40px;
+    min-height: 20px;
+    line-height: 1em;
+    font-size: 13px;
+    resize: none;
+    padding-left: 0px;
+
+    
+}
+
+#Showcase-div input[name="Invia"] {
+
+    
+}
+
+#Showcase-div .comment .delete 
+{
+    font-size: 8px;
+}
+
+#Showcase-div .comment .data 
+{
+    font-size: 12px;
+}
+
+
+#Showcase-div .counter-like
+{
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+     font-size: 14px;
+    
+}
+
+#Showcase-div form[name="addLike"]
+{
+    display: inline-block;
+    position: relative;
+    margin-left: 2px;
+}
+
+#Showcase-div input[name="addLike"]
+{
+    
+    display: inline-block;
+    padding: 2px;
+    line-height: 1em;
+    font-size: 13px;
+    width: 30px;
+    height: auto;
+}
+
+
+.zoomed {
+    max-height: 800px !important;
+    max-width: 800px !important;
+}
+

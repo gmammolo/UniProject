@@ -1,0 +1,7 @@
+/nbproject/private/
+/build/
+/dist/
+.~lock*
+.directory
+/src/LFT/Translator_output/*.j
+/src/LFT/Translator_output/*.class

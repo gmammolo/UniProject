@@ -1,0 +1,22 @@
+Deny from all
+
+<FilesMatch ".*\.(?!(php)).{2,4}$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+
+#<FilesMatch ".*\.(php)$">
+#    Order Allow,Deny
+#    Deny from all
+#</FilesMatch>
+
+<Files "index.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files "./">
+    Order Allow,Deny
+    Allow from all
+</Files>

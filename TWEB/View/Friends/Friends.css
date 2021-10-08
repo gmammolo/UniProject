@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-apr-2015, 10.46.08
+    Author     : giuseppe
+*/
+
+#friend_list
+{
+    position: relative;
+}
+
+#possible_friend 
+{
+       
+}
+
+.friend
+{
+    position: relative;
+    font-size: 14px;
+    border: 1px solid #222629;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    line-height: 1em;
+    vertical-align: top;
+    
+}
+
+.friend div
+{
+    display: inline-block;
+}
+
+.friend .row
+{
+    display: block;
+}
+
+.friend .image, .friend .image img
+{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.friend .nome
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.friend .buttonRequest 
+{
+    text-align: center;
+}
+
+.friend .buttonRequest input[type="button"]
+{
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 5px;
+    line-height: 1em;
+}
+
+.friend .buttonRequest 
+{
+    text-align: center;
+}
+
+.friend .buttonRequest input[type="button"]
+{
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 5px;
+    line-height: 1em;
+}
+

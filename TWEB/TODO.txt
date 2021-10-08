@@ -1,0 +1,7 @@
+E' Opportuno attivare gli .htaccess aggiungendo al file /etc/apache2/sites-available/000-default.conf
+
+<Directory "/var/www">
+    AllowOverride All
+</Directory>
+
+Non deve essere possibile accedere ai singoli file direttamente, ma ci si viene rindirizzati tramite index.pxp

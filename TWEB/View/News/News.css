@@ -1,0 +1,124 @@
+/* 
+    Created on : 30-apr-2015, 20.12.16
+    Author     : Giuseppe
+*/
+
+
+
+#Showcase-div 
+{
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+#Showcase-div .post
+{
+    border: 1px solid #222729;
+    position: relative;
+    padding-bottom: 0px;
+    line-height: 1.2em !important ;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#Showcase-div .post .Author
+{
+     font-style: oblique;
+    font-size: 16px;
+}
+
+#Showcase-div .post .Author .AuthorName
+{
+     font-size: 18px;
+     font-weight:bold;
+}
+
+
+#Showcase-div .post .Image
+{
+    margin-left: 5px;
+    max-width: 100px;
+    max-height: 100px;
+    cursor: pointer;
+}
+
+#Showcase-div .post .Testo
+{
+    margin: 10px;
+}
+
+#Showcase-div .post .row
+{
+    position: relative;
+    font-size: 13px;
+    min-height: 20px;
+}
+
+#Showcase-div .post .delete
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    background-color: #222729;
+    color: red;
+    line-height: 1em;
+    cursor: pointer;
+}
+
+#Showcase-div .post .luogo
+{
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#Showcase-div .post .data
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-style: oblique;
+}
+
+#Showcase-div .post .privacy
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+#Showcase-div .post .privacy img
+{
+    width: 20px;
+    height: 20px;
+}
+
+#Showcase-other
+{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    cursor: pointer;
+    background: #222729;
+    color: #FFF;
+    text-align: center;
+}
+
+
+.zoomed {
+    max-height: 800px !important;
+    max-width: 800px !important;
+}
+

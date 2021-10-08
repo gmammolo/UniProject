@@ -1,0 +1,309 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-apr-2015, 13.30.00
+    Author     : giuseppe
+*/
+
+
+
+body {
+
+}
+
+/* <editor-fold defaultstate="collapsed" desc=" Header"> */
+
+header
+{
+    
+}
+
+#title
+{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+
+/* </editor-fold> */
+
+/* <editor-fold defaultstate="collapsed" desc=" Menu"> */
+
+aside
+{
+    background-color: #1D1717;
+    position: absolute;
+    top: 0px; 
+    bottom: 0px;
+    width:360px;
+    min-width: 350px;
+
+}
+
+#logo
+{
+    position: relative;
+    left: 1em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    min-height: 200px;
+}
+
+#logo #avatar
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    
+}
+
+#logo #avatar img
+{
+    width: inherit;
+    height: inherit;
+}
+
+#logo div
+{
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 3px;
+}
+
+#logo .name
+{
+    display: inline-block;
+    width: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    width:15em;
+    font-size: 30px;
+    
+}
+
+#logo .username
+{
+    display: block;
+    height: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    position: relative;
+    top: -20px;
+    
+}
+
+
+
+#search
+{
+    position: relative;
+    top: -120px;
+    left: 0px;
+}
+
+#search input
+{
+    margin: 10px;
+    margin-top: 3px;
+    padding: 6px;
+}
+
+#button_search
+{
+    width: 48px;
+    height: 48px;
+    margin: 0px !important;
+    padding: 0px !important; 
+    margin-left: 1px;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0px;
+    
+}
+
+#bar_search
+{
+    margin-right: 0px;
+    background-color: #DAE9E8;
+    width: 60%;
+}
+
+
+
+nav
+{
+    position: relative;
+    left: 0px;
+    left: 0px;
+    top: -100px;
+}
+
+nav ol, nav ul
+{
+    margin-bottom: 0px;
+    padding-left: 15px;
+    -webkit-padding-start: 0;
+}
+
+nav li
+{
+    background-color: #DAE9E8;
+    padding: 5px;
+    color: #000;
+    border: 1px solid #000;
+    width: 10em;
+    text-decoration: none;
+    position: relative;
+}
+
+nav li.no-visible
+{
+    border: 0px;
+    background: #1D1717;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+nav li a
+{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+nav li img
+{
+   width: 1em;
+   height: 1em;
+   margin: 0px;
+   padding: 0px;
+   margin-right: 5px;
+   position: relative;
+   top: 3px;
+   left: 0px;
+}
+
+.menutab
+{
+    cursor: pointer;
+}
+
+.menutab-no-cursor
+{
+    
+}
+
+.submenutab
+{
+    cursor: pointer;
+    margin-left: 30px;
+    display: block;
+}
+
+.hidden
+{
+    display: none;
+}
+ 
+
+.empathize
+{
+    background-color: #4090A1;
+}
+/* </editor-fold> */
+
+
+
+/* <editor-fold defaultstate="collapsed" desc=" Container"> */
+
+#container
+{
+    position: absolute;
+    top: 0px; 
+    left: 350px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #DAE9E8;
+    min-width: 560px;
+/*    overflow-x: auto;*/
+/*    overflow-y: auto;*/
+}
+
+
+main {
+    position: relative;
+    
+}
+
+.section {
+    min-height: 300px;
+    margin: 10px;
+}
+
+footer {
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 20px;
+    background-color: #1D1717;
+    height: 4em;
+    max-height: 50px;
+    min-width: 910px;
+}
+
+.copyright {
+    margin: 1em;
+    text-align: center;
+    font-size: 15px;
+}
+
+.copyright p
+{
+    margin: 0; 
+    padding-bottom: 0;
+}
+
+/* </editor-fold> */
+
+
+.clearfloat { /* questa classe deve essere inserita in un elemento div o break e deve essere l'elemento finale prima della chiusura di un contenitore che deve contenere per intero un elemento mobile */
+    clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}  
+
+.notify_counter {
+    position: absolute;
+    color: #FF2B2B;
+    font-size: 20px;
+    top: 25px;
+/*    background-color: #DAE9E8;*/
+    max-width: 2em;
+    height: 13px;
+    line-height: normal;
+    padding: 1px;
+    padding-top: 0px;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,193 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-apr-2015, 15.56.58
+    Author     : giuseppe
+*/
+
+#profile
+{
+ position: relative;
+
+ padding: 10px;
+ 
+}
+
+#profile .tab-profile
+{
+  border: 1px solid black;
+  margin: 5px;
+}
+
+#profile .avatar
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    
+}   
+
+#profile .generalita
+{
+    vertical-align: top;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+#profile .name
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 28px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#profile .username
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#profile .pwd {
+    position: relative;
+    top: 20px;
+}
+
+#profile .down-avatar
+{
+    margin-left: 5px;
+}
+
+#profile .label-info
+{
+    display: inline-block;
+    text-align: left;
+    width: 10em;
+}
+
+#profile input[button]
+{
+    margin: 5px;
+    padding: 0px;
+}
+
+
+
+
+.tab-profile
+{
+    padding: 5px;
+}
+
+.mod-avatar
+{
+    display: inline-block;
+    margin: 10px;
+}
+
+input[name="avatar"]
+{
+    display: block;
+    padding: 5px;
+    
+}
+
+form .name
+{
+    margin-top: 10px !important;
+}
+
+.tab-profile input, .tab-profile select
+{
+    padding: 5px !important;
+}
+
+
+#gender img
+{  
+    position: relative;
+    top: 3px;
+    width: 20px;
+    heith: 15px;
+}
+
+#change-photo
+{
+   position: absolute;
+   float: left;
+   top: 30px;
+   left: 250px;
+   width: 700px;
+   height: 300px;
+   background-color: #1D1717;
+   z-index: 50;
+}
+
+#change-photo div
+{
+    margin: 20px;
+    margin-left: 20px;
+    
+}
+
+#change-photo input[type="radio"]
+{
+    margin-right: 5px;
+}
+
+#change-photo input[type="url"]
+{
+    width: 600px;
+    height: 2em;
+    padding: 0px;
+}
+
+#change-photo input[type="file"]
+{
+     width: 600px;
+     height: 2em;
+     padding: 0px;
+}
+
+#change-photo input[type="button"]
+{
+    margin-left: 20px;
+}
+
+.retry
+{
+    background-color: #9ECECC;
+    padding: 20px;
+    color: #FFF;
+    width: 200px;
+    cursor: pointer;
+}
+
+#change-password
+{
+   position: absolute;
+   float: left;
+   top: 30px;
+   left: 250px;
+   width: 800px;
+   height: 360px;
+   background-color: #1D1717;
+   z-index: 50;
+   padding: 20px;
+}
+
+#change-password input
+{
+    margin: 20px;
+}
+
+
+

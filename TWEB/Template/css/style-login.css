@@ -1,0 +1,63 @@
+/* 
+    Created on : 17-apr-2015, 13.29.23
+    Author     : giuseppe
+*/
+
+#main
+{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 1024px;
+    height: 2000px;
+    margin: 0 auto auto auto;
+    padding: 30px;
+}
+
+#account-form
+{
+    position: relative;
+    width: 90%;
+    max-width: 960px;
+    //margin: 2em auto;
+}
+
+
+#account-form .tab-contents
+{
+    position: relative;
+    margin-top: 5px;
+    padding-top: 30px;
+}
+
+#account-form input[type="submit"]
+{
+    margin-left: 30px;
+}
+
+#account-form input[type="text"] , #account-form input[type="password"]
+{
+    width: 15em;
+}
+
+.div-menu
+{
+    position: relative;
+    float: none;
+    height: 100%;
+    width: auto;
+    min-height: 71px;
+    
+    
+    
+}
+
+.div-menu ul
+{
+    padding-left: 0px;
+}
+
+#login, #join
+{
+    
+}
